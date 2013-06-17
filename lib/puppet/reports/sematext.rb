@@ -35,7 +35,6 @@ Puppet::Reports.register_report(:sematext) do
         name = "puppet_#{val[1]}_#{metric}".downcase.gsub(" ", "_")
         value = val[2]
         Sematext::Metrics.send(
-          :timestamp => Time.now.to_i,
           :name => name,
           :value => value,
           :agg_type => :sum,

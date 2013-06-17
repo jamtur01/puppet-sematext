@@ -15,7 +15,7 @@ Requirements
 Installation & Usage
 --------------------
 
-1. Create a Sematext account: https://www.sematext.com
+1. Create a Sematext Apps account: https://apps.sematext.com/
 
 2. Retrieve your Token
 
